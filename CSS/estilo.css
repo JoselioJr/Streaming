@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+    padding: 90px;
+    background-color: #f1f1f1;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #333333;
+    box-shadow: #000000 0px -10px 30px 5px;
+}
+
+.amenu{
+    color: #ffffff;
+}
+
+.imgmenu{
+    height: 30px;
+    width: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+li{
+    margin-right: 3px;
+}
+
+figure{
+    margin-right: 2px;
+}
+
+img{
+    height: 300px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.plat{
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+a{
+    color: coral;
+}
+
+.capa{
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.assinatura{
+    text-align: center;
+    font-size: 18px;
+    color: #4D4A4C;
+}
